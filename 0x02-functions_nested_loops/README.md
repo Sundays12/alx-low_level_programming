@@ -1,22 +1,27 @@
 Functions and nested loops
 
-#Requirements
+Requirements
 
 1.C programming language
 2.Ubuntu 14.04 LTS
 3.gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
-#Synopisis
+Synopisis
 
 This project introduces functions and nested loops in C programming. Each .c file contains a different function while the holberton.h file contains all the function prototypes.
 
-#Description of  what each file does
+Description of  what each file does
 
 0.prints _putchar
+
 1.prints the alphabet, in lowercase
+
 2.prints 10 times the alphabet, in lowercase
+
 3.checks for lowercase character; returns 1 if true and 0 if false
+
 4.checks for alphabetic character; returns 1 if true and 0 if false
+
 5.prints the sign of a number
 6.computes the absolute value of an integer
 7.prints the last digit of a number
