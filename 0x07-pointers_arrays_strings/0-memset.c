@@ -1,31 +1,23 @@
-include "main.h"
+#include "main.h"
 
 /**
- * _memset - fills the first byte
- * @b - address of memory to print
- * @s - size of memeory to print
- * Returns - on success 0
+ * *_memset - Fills memory with a constant byte
  *
+ * @s: pointer
+ * @b: char
+ * @n: unsigned int
+ *
+ *Return: s
  */
-int void (main);
+
+char *_memset(char *s, char b, unsigned int n)
 {
+	unsigned int index;
 
-	 unsigned int i;
-	 i = 0;
-	 while (i < size)
-	 {
-		 if (i % 10)
-		 {
-			 printf(" ");
-		 }
-		 if (!(i % 10) && i)
-                {
-                        printf("\n");
-                }
-                printf("0x%02x", buffer[i]);
-                i++;
-        }
-        printf("\n");
-
+	for (index = 0; n > 0; index++)
+	{
+		s[index] = b;
+		n -= 1;
+	}
+	return (s);
 }
-
